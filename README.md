@@ -1,21 +1,31 @@
-# Fundamentos 3
+# Fundamentos de Programação 3
 
-Repositório de projetos da disciplina **Fundamentos 3** (3º período) — PUC Goiás.
+| | |
+|---|---|
+| **Período** | 3º |
+| **Stack** | C++ / Qt |
 
 ## Projetos
 
-| Pasta / arquivo | Descrição |
-|-----------------|-----------|
-| `n1-p2` | Projeto ou atividade da disciplina |
+| Pasta | Descrição |
+|-------|-----------|
+| `n1-p2/FatoracaoLU/` | Fatoração LU de matrizes — implementação base |
+| `n1-p2/FatoracaoLUGit/` | Variante versionada / evolução do mesmo algoritmo |
 
-## Tecnologias
+## Objetivo
 
-- C++
+Resolver sistemas lineares via decomposição **LU** (Lower-Upper), aplicando eliminação de Gauss com pivotamento.
 
-## Como executar
+## Execução
 
-- **C++:** Projetos Qt: abrir `.pro` no Qt Creator ou `qmake && make`.
-
+```bash
+cd n1-p2/FatoracaoLU
+qmake FatoracaoLU.pro && make
+```
 ---
 
-*Origem: Google Drive → staging PUC. Repositório `puc-fundamentos-3` na org `puc-estudos`.*
+## Autor
+
+**Rodrigo Viana Quirino** — Ciência da Computação, PUC Goiás.
+
+Repositório privado na conta [rodviana](https://github.com/rodviana).
